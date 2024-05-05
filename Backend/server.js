@@ -27,8 +27,8 @@ app.get("*", (req, res) => {
 })
 
 
-app.listen(PORT, () => {
-    console.log(`connect server : ${PORT}`)
+app.listen(2000, () => {
+    console.log(`connect server : ${2000}`)
 })
 
 
